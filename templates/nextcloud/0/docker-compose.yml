@@ -3,7 +3,7 @@ version: '2'
 services:
 
   nextcloud:
-    image: nextcloud:12-apache
+    image: nextcloud:13-apache
     volumes_from:
       - nextcloud-data
     ports:
