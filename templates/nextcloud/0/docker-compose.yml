@@ -15,7 +15,7 @@ services:
       io.rancher.container.hostname_override: container_name
 
   nextcloud-data:
-    image: nextcloud:12-apache
+    image: nextcloud:13-apache
     entrypoint:
       - /bin/true
     volumes:
